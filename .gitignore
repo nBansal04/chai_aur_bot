@@ -1,2 +1,28 @@
-.env
+# Python
 __pycache__/
+/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+
+# Environment variables / secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS / Windows files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/config.toml

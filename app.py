@@ -58,7 +58,7 @@ st.title("🤖 Chai aur Code Bot")
 st.caption("Powered by GPT · Inspired by Hitesh Choudhary")
 
 # Input
-user_input = st.chat_input("Bolo kya puchna hai?")
+user_input = st.chat_input("Btaiye kya puchna hai?")
 
 # Display chat history
 for msg in st.session_state.messages[1:]:  # skip system prompt
