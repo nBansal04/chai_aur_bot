@@ -34,18 +34,31 @@ st.markdown("""
         flex-shrink: 0;
     }
     .chat-bubble {
-        background-color: #f0f2f6;
+        # background-color: #f0f2f6;
         padding: 12px;
         border-radius: 10px;
         max-width: 80%;
         word-wrap: break-word;
+        background-color: rgba(33, 195, 84, 0.1);
     }
     .chat-user {
         justify-content: flex-end;
         text-align: right;
     }
     .chat-user .chat-bubble {
-        background-color: #dcf8c6;
+        # background-color: rgba(33, 195, 84, 0.5);
+        background-color: rgb(175 6 243 / 20%);
+            # rgba(243, 168, 6, 0.2);
+            # rgb(71 6 243 / 10%);
+            # rgb(128 75 255 / 37%);
+            
+    }
+            
+    @media (prefers-color-scheme: dark) {
+            .chat-box {
+                border-color: #444444;
+                # background-color: rgba(255, 255, 255, 0.05)
+            }
     }
     </style>
 """, unsafe_allow_html=True)
